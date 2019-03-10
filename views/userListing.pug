@@ -1,0 +1,23 @@
+html
+    head
+        script(src='./app.js')
+        title User Listing
+    body
+        h1 User Listing
+
+        table
+            tr
+                th Username
+                th Name
+                th Email
+                th Age
+            each user in users
+                tr
+                    td #{user.username}
+                    td #{user.name}
+                    td #{user.email}
+                    td #{user.age}
+                    td
+                            a(href="/users/" + user.username) Edit
+                    td
+                        button(onclick="deletThis(user)") Delete
