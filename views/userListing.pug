@@ -1,8 +1,12 @@
 html
     head
-        script(src='./app.js')
+        //script(src='./app.js')
         title User Listing
+        include userListing.css
     body
+        div
+            a(href='/') Go to User Creation
+
         h1 User Listing
 
         table
@@ -18,6 +22,8 @@ html
                     td #{user.email}
                     td #{user.age}
                     td
-                            a(href="/users/" + user.username) Edit
+                        a(href="/users/" + user.username) Edit
                     td
-                        button(onclick="deletThis(user)") Delete
+                        button(onclick="deletThis(" + user + ")") Delete
+
+        a(href="/") Add Another User

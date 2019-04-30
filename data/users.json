@@ -1,1 +1,13 @@
-{"users": [{"username": "username", "name": "name", "email": "email", "age": "age"},{"username": "e", "name": "e", "email": "e", "age": "e"}]}
+{
+  "users":
+  [
+    {"username": "dispencer", "name": "Spencer", "email": "sw@email.com", "age": "16", "userID": 0},
+    {"username": "dww256", "name": "Daniel", "email": "dw@email.com", "age": "17", "userID": 1},
+    {"username": "orangeJedi", "name": "Isaac", "email": "ir@email.com", "age": "17", "userID": 2},
+    {"username": "blwaze", "name": "Andrew", "email": "aa@email.com", "age": "16", "userID": 3},
+    {"username": "philcat101", "name": "Phillip", "email": "pd@email.com", "age": "18", "userID": 4},
+    {"username": "taimase", "name": "Talmage", "email": "tg@email.com", "age": "18", "userID": 5},
+    {"username": "bethan", "name": "Ethan", "email": "ee@email.com", "age": "17", "userID": 6},
+    {"username": "ekulnagrom", "name": "Luke", "email": "lm@email.com", "age": "18", "userID": 7}
+  ]
+}
